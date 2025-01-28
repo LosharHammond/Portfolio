@@ -1,0 +1,63 @@
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  fieldset {
+    background-color: white;
+    border: none;
+    padding: 0;
+  }
+
+  input,
+  textarea {
+    background-color: white;
+    /* Ensures the input field has a visible background */
+    color: #050f0b;
+    /* Ensures the text color contrasts with the background */
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    &:focus {
+      outline: none;
+      border-color: #5000ca;
+      box-shadow: 0 0 5px rgba(80, 0, 202, 0.5);
+    }
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+  color: #050f0b;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
